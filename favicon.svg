@@ -1,4 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#1e3a5f"/>
-  <text x="32" y="44" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#d4a853" text-anchor="middle">B</text>
+  <rect width="64" height="64" rx="14" fill="#1F1F1F"/>
+  <g fill="none" stroke="#F5C518" stroke-width="3" stroke-linecap="round">
+    <!-- twisted-rope monogram: two interlaced helices -->
+    <path d="M14 16 Q22 32 14 48" />
+    <path d="M22 16 Q30 32 22 48" />
+    <path d="M50 16 Q42 32 50 48" />
+    <path d="M42 16 Q34 32 42 48" />
+    <!-- crossing strand in sisal gold over rope brown -->
+  </g>
+  <g fill="none" stroke="#8B4513" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M14 16 Q22 32 14 48" transform="translate(2 0)" />
+    <path d="M50 16 Q42 32 50 48" transform="translate(-2 0)" />
+  </g>
 </svg>
